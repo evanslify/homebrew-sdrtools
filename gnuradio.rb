@@ -3,9 +3,9 @@ require "formula"
 class Gnuradio < Formula
   homepage "http://gnuradio.org"
   head "https://github.com/gnuradio/gnuradio.git",
-    :revision => '55d8f482f5acf33b8f629556a4fa5019908bb4be'
-  url "http://gnuradio.org/releases/gnuradio/gnuradio-3.7.7.1.tar.gz"
-  sha1 "4b32efa93ed398dfff67737121036459fd50ba42"
+    :revision => '95ccf0b099f88d0e3b97f7025743091c42cb90d3'
+  url "http://gnuradio.org/releases/gnuradio/gnuradio-3.7.10.1.tar.gz"
+  sha256 "fa85ea05d18ba31f50cb6d159088e7e184bf5c1096a271950c253c69997434c1"
 
   option "without-qt", "Build with QT widgets in addition to wxWidgets"
   option "without-docs", "Build gnuradio documentation"
